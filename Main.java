@@ -36,6 +36,17 @@ public class Main {
         cliente1.adicionarTelefone("13", "88888-8888");
     
         cliente1.mostrarDados();
+
+		Pessoas pessoas1 = new Pessoas("João", "Masculino", 10, false);
+        Pessoas pessoas2 = new Pessoas("Maria", "Feminino", 20, true);
+        
+        Churrasco churrasco = new Churrasco();
+        
+        churrasco.verificarConsumo(pessoas1);
+        System.out.println("Quantidade de carne para " + pessoas1.getNome() + ": " + churrasco.getQtdCarne() + " kg");
+        
+        churrasco.verificarConsumo(pessoas2);
+        System.out.println("Quantidade de carne para " + pessoas2.getNome() + ": " + churrasco.getQtdCarne() + " kg");
     }
 }
 
