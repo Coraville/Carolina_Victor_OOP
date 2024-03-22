@@ -1,5 +1,3 @@
-package lista;
-
 public class Transferencia {
 	
 	public void transferir(Cliente c1, Cliente c2, double quantia) {

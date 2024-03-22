@@ -1,5 +1,3 @@
-package lista;
-
 public class Cliente {
 	
 	private String nome;
